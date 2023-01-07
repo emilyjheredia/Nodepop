@@ -1,12 +1,14 @@
-## Nodepop
+# Nodepop
 
-# Load initial data to database:
+Backend practice with Node.js, Express.js and MongoDB: Development of a WEB-API that will run on the server of a second-hand item sales service called Nodepop.
+
+## Load initial data to database:
 
 ```
 npm run init-db
 ```
 
-# Start the application in development with:
+## Start the application in development with:
 
 ```sh
 npm run dev
@@ -14,7 +16,7 @@ npm run dev
 
 ## API Documentation
 
-# Product list:
+## Product list:
 
 GET api/products
 
@@ -70,7 +72,7 @@ GET api/products
 
 ```
 
-# Photos products:
+## Photos products:
 
 GET /images/'name photo'
 
@@ -79,7 +81,7 @@ GET /images/'name photo'
 * http://localhost:3000/images/carminicooper.png
 * http://localhost:3000/images/chair.png
 
-# Filters:
+## Filters:
 
 * Filter for name  http://localhost:3000/api/products?name=table
 * Filter for price  http://localhost:3000/api/products?price=1000
@@ -89,6 +91,6 @@ GET /images/'name photo'
 * Sort http://localhost:3000/api/products?sort=price
 * Fields http://localhost:3000/api/products?fields=name
 
-# Tags:
+## Tags:
 
 * http://localhost:3000/api/products/tags
