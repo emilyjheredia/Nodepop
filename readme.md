@@ -18,6 +18,7 @@ npm run dev
 
 GET api/products
 
+```
 {
       "results": [
       {
@@ -67,6 +68,7 @@ GET api/products
  ]
 }
 
+```
 
 # Photos products:
 
