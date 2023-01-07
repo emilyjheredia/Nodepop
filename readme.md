@@ -74,21 +74,21 @@ GET api/products
 
 GET /images/'name photo'
 
-http://localhost:3000/images/table.png
-http://localhost:3000/images/iphone13pro.png
-http://localhost:3000/images/carminicooper.png
-http://localhost:3000/images/chair.png
+* http://localhost:3000/images/table.png
+* http://localhost:3000/images/iphone13pro.png
+* http://localhost:3000/images/carminicooper.png
+* http://localhost:3000/images/chair.png
 
 # Filters:
 
-Filter for name  http://localhost:3000/api/products?name=table
-Filter for price  http://localhost:3000/api/products?price=1000
-Filter for tag  http://localhost:3000/api/products?tags=mobile
-Filter for sale http://localhost:3000/api/products?sale=true
-Pagination http://localhost:3000/api/products?skip=1&limit=1
-Sort http://localhost:3000/api/products?sort=price
-Fields http://localhost:3000/api/products?fields=name
+* Filter for name  http://localhost:3000/api/products?name=table
+* Filter for price  http://localhost:3000/api/products?price=1000
+* Filter for tag  http://localhost:3000/api/products?tags=mobile
+* Filter for sale http://localhost:3000/api/products?sale=true
+* Pagination http://localhost:3000/api/products?skip=1&limit=1
+* Sort http://localhost:3000/api/products?sort=price
+* Fields http://localhost:3000/api/products?fields=name
 
 # Tags:
 
-http://localhost:3000/api/products/tags
+* http://localhost:3000/api/products/tags
